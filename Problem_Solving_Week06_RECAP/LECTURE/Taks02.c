@@ -7,6 +7,8 @@ scanf("%d",&start);
 printf("Type the end number: ");
 scanf("%d",&end);
 
+//Input validation: this code needs to be added of something to avoid variable end is lower than start 
+
 while (start <= end)
 {
     printf("Times table for %d \n", start);
