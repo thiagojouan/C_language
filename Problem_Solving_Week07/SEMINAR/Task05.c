@@ -2,7 +2,7 @@
 int main(){
 double temperatures [5];
 float total = 0;
-
+printf("\n");
 for (int i = 0; i < 5; i++)
 {
     printf("Type the temperature value for position %d: ",i);
@@ -10,7 +10,7 @@ for (int i = 0; i < 5; i++)
     total = total + temperatures [i];
 }
 
-printf("The avarage temperature is: %.2f degrees.", total / 5);
+printf("\nThe avarage temperature is: %.2f degrees.\n", total / 5);
 
 return 0;
 
